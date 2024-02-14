@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Russo+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: "Bungee", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: rgb(29, 53, 163);
+    height: 100vh;
+}
+
+.poke_nav {
+    background-color: #fdec00c7;
+    width: 100%;
+    box-shadow:  0px 0px 4px 0px #00000088;
+    border-radius: 0 0 30px 30px;
+}
+
+.poke_logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.poke_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdec00c7;
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow:  0px 0px 4px 0px #00000088;
+}
+
+h1 {
+    color: rgb(29, 53, 163);
+}
+
+.poke_btn {
+    display: flex;
+    margin: 20px 0;
+}
+
+.btnStarterR,
+.btnStarterB,
+.btnStarterG {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btnStarterR:hover, 
+.btnStarterB:hover, 
+.btnStarterG:hover {
+    opacity: 0.45;
+}
+
+#reset {
+    display: none;
+    background: rgb(29, 53, 163);
+    color: #fdec00c7;
+    border: 2px solid rgb(29, 53, 163);
+    border-radius: 8px;
+    padding: 8px 30px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    color: rgb(29, 53, 163);
+    background-color: rgba(235, 216, 50, 0.808);
+}
+
+img {
+    width: 150px;
+}
