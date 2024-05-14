@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Russo+One&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: "Bungee", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: rgb(29, 53, 163);
+    height: 100vh;
+}
+
+.poke_nav {
+    background-color: #fdec00c7;
+    width: 100%;
+    box-shadow:  0px 0px 4px 0px #00000088;
+    border-radius: 0 0 30px 30px;
+}
+
+.poke_logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.poke_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdec00c7;
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow:  0px 0px 4px 0px #00000088;
+}
+
+h1 {
+    color: rgb(29, 53, 163);
+}
+
+.poke_btn {
+    display: flex;
+    margin: 20px 0;
+}
+
+.btnStarterR,
+.btnStarterB,
+.btnStarterG {
+    transition: all 0.2s ease;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btnStarterR:hover, 
+.btnStarterB:hover, 
+.btnStarterG:hover {
+    transform: translateY(-2px);
+    opacity: 0.45;
+}
+
+#reset {
+    display: none;
+    background: rgb(29, 53, 163);
+    color: #fdec00c7;
+    border: 2px solid rgb(29, 53, 163);
+    border-radius: 8px;
+    padding: 8px 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#reset:hover {
+    transform: translateY(-2px);
+    color: rgb(29, 53, 163);
+    background-color: rgba(235, 216, 50, 0.808);
+}
+
+img {
+    width: 150px;
+}
+
+/* Choix aléatoire du pokémon */
+
+.content {
+    margin-top: 50px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdec00c7;
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow:  0px 0px 4px 0px #00000088;
+}
+
+#image {
+    width: 250px;
+}
+
+#header {
+    display: flex;
+}
+
+#number {
+    margin-right: 13px;
+    color: rgb(29, 53, 163);
+}
+
+#name {
+    color: rgb(29, 53, 163);
+}
+
+.random_choice {
+    margin-top: 15px;
+    color: #fdec00c7;
+    background-color: rgb(29, 53, 163);
+    padding: 8px;
+    border: solid 2px rgb(29, 53, 163);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.random_choice:hover {
+    transform: translateY(-2px);
+    color: rgb(29, 53, 163);
+    background-color: rgba(235, 216, 50, 0.808);
+}
+
+.random_choice:active {
+    transform: translateY(2px);
+}
+
+
+/* Choix du pokémon */
+
+/*.content2 {
+    margin-top: 80px;
+}
+
+.poke_box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdec00c7;
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow:  0px 0px 4px 0px #00000088;
+}
+
+::placeholder {
+    text-align: center;
+    color: rgba(29, 54, 163, 0.466);
+}
+
+
+#poke-search {
+    border: 1px solid blue;
+    border-radius: 5px;
+    outline: 0;
+    color: rgb(29, 54, 163);
+    text-align: center;
+}*/
+
+/* Footer (bas de la page) */
+
+footer {
+    margin-top: 90px;
+    background-color: #fdec00c7;
+    height: 50px;
+    box-shadow:  0px 0px 4px 0px #00000088;
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.cond {
+    text-align: center;
+    color: rgb(29, 53, 163);
+    margin-top: 5px;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Starter</title>
+    <link rel="stylesheet" href="pk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Barre Pokémon -->
+    <nav class="poke_nav">
+        <div class="poke_logo">
+            <img class="logo" src="images/pokemon.png" alt="Pokémon">
+        </div>
+    </nav>
+
+    <!-- Starter Pokémon-->
+    <section>
+        <div class="poke_box">
+            <h1 id="starter">Choisis ton starter</h1>
+            <h2><span id="choix-utilisateur"></span></h2>
+            <div class="poke_btn">
+                <button id="salameche" class="btnStarterR red"><img id="salameche" src="images/pokeball.png" alt="pokeball"></button>
+                <button id="carapuce" class="btnStarterB blue"><img id="carapuce" src="images/pokeball.png" alt="pokeball"></button>
+                <button id="bulbizarre" class="btnStarterG green"><img id="bulbizarre" src="images/pokeball.png" alt="pokeball"></button>   
+            </div>  
+
+            <input id="reset" type="button" value="Recommencer"/>
+        </div>
+    </section>
+
+    <!-- Choice random Pokémon -->
+    <section class="content">
+        <div id="wrapper">
+            <div id="header">
+                <div id="number"></div>
+                <div id="name"></div>
+            </div>
+            <div id="image-wrapper">
+                <img id="image" src="" alt="">
+            </div>
+            <div class="random_choice" id="button">Choix aléatoire</div>
+        </div>
+    </section>
+
+
+    <!-- Choice Pokémon -->
+    <!--<section class="content2">
+        <div class="poke_box3">
+            <h1 id="choice">Choisis ton pokémon</h1>
+            <div class="poke_search">
+                <input type="text" placeholder="Chercher un pokémon" id="poke-search" oninput="searchOnChange()"/>
+            </div>
+            <h2><span id="choix-utilisateur2"></span></h2>
+        </div>
+    </section>-->
+
+    <footer>
+        <p class="cond">&copy; 2024 Mon Entreprise. Tous droits réservés.</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
